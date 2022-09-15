@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headr {
+  height: 100vh;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+}
+
+.content {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 51px;
+  height: 100vh;
+}
+
+.logo {
+  color: white;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.menu-nav-button {
+  text-decoration: none;
+  color: white;
+  margin-left: 53px;
+  font-weight: 600;
+}
+
+.menu-nav-button:hover {
+  border-bottom: 1px solid white;
+}
+
+.menu {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.big-title {
+  font-family: "Hammersmith One", sans-serif;
+  color: white;
+  font-size: 95px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.button-center {
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  padding: 23px 0 23px 0;
+  margin: auto;
+  margin-top: 43%;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.button-center:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.about {
+  height: 75vh;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: black;
+  width: 200px;
+  text-align: center;
+  padding: 23px 0 23px 0;
+  margin: auto;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.link:hover {
+  background-color: #2e3538;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.about-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 55px;
+}
+
+.about-title-big {
+  font-family: "Hammersmith One", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 72px;
+  margin-bottom: 35px;
+}
