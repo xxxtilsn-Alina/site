@@ -10,7 +10,7 @@
 }
 
 .content {
-  max-width: 1240px;
+  max-width: 1270px;
   margin: auto;
   padding-top: 51px;
   height: 100vh;
@@ -113,4 +113,65 @@
   color: black;
   font-size: 72px;
   margin-bottom: 35px;
+}
+
+.projects {
+  height: 100vh;
+  background-color: black;
+  padding-top: 40px;
+  box-sizing: border-box;
+  padding-top: 155px;
+}
+
+.projects-title {
+  font-family: "Hammersmith One", sans-serif;
+  text-transform: uppercase;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.conten-projects {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.bilding {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.bilding-item > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 15px;
+}
+
+.bild-item {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.link-projects {
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  padding: 23px 0 23px 0;
+  margin: auto;
+  transition: 0.2s;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+.link-projects:hover {
+  background-color: #1a1a1a;
+  color: white;
 }
