@@ -74,7 +74,7 @@
 }
 
 .about {
-  height: 75vh;
+  height: 100vh;
 }
 
 .link {
@@ -174,4 +174,63 @@
 .link-projects:hover {
   background-color: #1a1a1a;
   color: white;
+}
+
+.services {
+  height: 100vh;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.services-left {
+  width: 400px;
+  text-align: left;
+}
+
+.services-text {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 25px;
+}
+
+.services-title {
+  text-transform: uppercase;
+  font-size: 72px;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.services-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 23px 58px;
+  margin-top: 60px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.services-button:hover {
+  background-color: #2e3538;
+  color: white;
+}
+
+.services-right {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+
+.servises-item {
+  margin-bottom: 50px;
+}
+
+.item-number {
+  font-size: 64px;
+  font-family: "Hammersmith One", sans-serif;
+  margin-right: 40px;
 }
